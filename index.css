@@ -1,0 +1,29 @@
+ table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top-left-radius: 25px;
+}
+
+tr:nth-child(even) {background-color: rgb(214, 213, 213);}
+
+ th{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(193, 184, 252)
+ }
+ td{
+  padding: 10px;
+  text-align: center;
+
+ }
+ th:first-child{
+   border-top-left-radius: 20px;
+ }
+ tr:hover {background-color:#fdede9;}
+ .container {
+  position: relative;
+  width: 100%;
+  flex: 1 0 auto;
+  margin: 0 auto;
+ }
